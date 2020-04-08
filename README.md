@@ -31,3 +31,7 @@ Functions
 ## Licence
 
 The MIT License (MIT)
+
+## Acknowledgements
+
+- [Smashicons](https://www.flaticon.com/authors/smashicons) for the [logo](https://www.flaticon.com/free-icon/flag_148882).
