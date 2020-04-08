@@ -1,0 +1,12 @@
+Usage: qp.sh [OPTION] [NAME] [PATH]
+Saves and loads filesystem paths as checkpoints, which are saved in $HOME/.config/qp/.
+
+Functions
+    -d, --drop [NAME]         drop: delete checkpoint NAME.
+    -h, --help                help: print this help message.
+    -l, --load [NAME]         load: move to this checkpoint.
+    -s, --save [NAME]         save: save working directory as checkpoint NAME.
+    -s, --save [NAME] [PATH]  save: save (absolute) PATH as checkpoint NAME.         
+    -t, --table               table: print table of all checkpoints.          
+    -t, --table [NAME]        table: point path of checkpoint NAME.
+    -v, --version             version: print version.
