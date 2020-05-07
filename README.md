@@ -4,17 +4,17 @@
 
 ## Setup
 
-Put `qp.sh` somewhere in your `PATH` and make it executable. For example,
+Put `qp` somewhere in your `PATH` and make it executable. For example,
 
 ```sh
-cp qp.sh /usr/bin
-chmod +x /usr/bin/qp.sh
+cp qp /usr/bin
+chmod +x /usr/bin/qp
 ```
 
 ## Usage
 
 ```help
-Usage: qp.sh [OPTION] [NAME] [PATH]
+Usage: qp [OPTION] [NAME] [PATH]
 Saves and loads filesystem paths as checkpoints, which are saved in $HOME/.config/qp/.
 
 Functions

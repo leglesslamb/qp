@@ -1,4 +1,4 @@
-Usage: qp.sh [OPTION] [NAME] [PATH]
+Usage: qp [OPTION] [NAME] [PATH]
 Saves and loads filesystem paths as checkpoints, which are saved in $HOME/.config/qp/.
 
 Functions

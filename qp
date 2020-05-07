@@ -1,4 +1,4 @@
-#!/bin/bash
+#!/bin/sh
 
 if [ ! -d $HOME/.config ]; then
     mkdir -p $HOME/.config;
@@ -16,7 +16,7 @@ case $1 in
         fi
     ;;
     -h|--help)
-        echo "Usage: qp.sh [OPTION] [NAME] [PATH]
+        echo "Usage: qp [OPTION] [NAME] [PATH]
 Saves and loads filesystem paths as checkpoints, which are saved in $HOME/.config/qp/.
 
 Functions
@@ -56,6 +56,6 @@ Licence: MIT
         "
     ;;
     *)
-        echo "qp: run qp.sh -h for help"
+        echo "qp: run qp -h for help"
     ;;
 esac
